@@ -23,7 +23,7 @@ uvicorn tset:app --reload
 ## ChangeLog
 Created a encryption endpoint at 
 
-[http:/localhost:8000/encryption/{sender_key}/{msg}/{reciever_key}](http:/localhost:8000/encryption/6/Test/9)
+[http:/localhost:8000/encrypt/{sender_key}/{msg}/{reciever_key}](http:/localhost:8000/encrypt/6/Test/9)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
